@@ -1,7 +1,9 @@
 import os
 import random
+import time
 def generateBoard():
-    N = random.choice(range(1, 50))
+    N = random.choice(range(1, 3000))
+    N = 10
     board = []
 
     for i in range(N):
@@ -16,7 +18,7 @@ def generateBoard():
         for i in row:
             rowString += (str(i) + ' ')
         boardString += (rowString[:-1] + '\n')
-    #print(boardString)
+    print(boardString)
     return boardString
 
 for i in range(1000):
@@ -25,3 +27,4 @@ for i in range(1000):
         file.write(board)
     os.system('python DMOJ-Mock-CCC-2020/Q2.py < input.txt')
     print('--------------------------------------------------------------')
+    #time.sleep(2)

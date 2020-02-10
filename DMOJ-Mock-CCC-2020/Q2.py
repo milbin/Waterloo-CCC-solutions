@@ -10,6 +10,10 @@ for row in gridInput:
     grid.append(newRow)
 
 
+
+
+
+
 def flipRow(rowNumber, grid):
     newGrid = grid.copy()
     newGrid.pop(rowNumber)
@@ -41,11 +45,9 @@ def flipCol(colNumber, grid):
 def isSolved(grid):
     allZero = True
     for y in grid:
-        for x in y:
-            if x == 1:
-                allZero = False
-    if allZero:
-        return True
+       if 1 in y:
+            allZero = False
+    return allZero
 
 def getColAt(colNumber):
     col = []
@@ -73,51 +75,56 @@ def findColToFlip(grid):
                 return i, numberOfZeros
         numberOfZeros += 1
 
+def isSolvable(grid):
+    width = len(grid)
+    numOfZerosAtRow = []
+    numOfZerosAtCol = []
 
+    for i in range(width):
+        numOfZerosAtRow.append(width - sum(grid[i]))
+        numOfZerosAtCol.append(width - sum(getColAt(i)))
+    if sum(numOfZerosAtRow) == 0 and sum(numOfZerosAtCol) == 0:
+        return True
+    for rowNum, row in enumerate(grid):
+        for colNum, item in enumerate(row):
+            if item == 0:
+                if numOfZerosAtRow[rowNum] <= 1 or numOfZerosAtCol[colNum] <= 1:
+                    return True
 
+    return False
 
-M = 0
-
-movesList = []
 if isSolved(grid):
     print(0)
-while not isSolved(grid):
-    rowToFlip, rowZeros = findRowToFlip(grid)
-    colToFlip, colZeros = findColToFlip(grid)
-    if rowZeros <= colZeros:
-        grid = flipRow(rowToFlip, grid)
-        movesList.append('R ' + str(rowToFlip + 1))
-        M += 1
+else:
+    canBeSolved = isSolvable(grid)
+    if canBeSolved:
+        M = 0
+        movesList = []
+
+        while not isSolved(grid):
+            rowToFlip, rowZeros = findRowToFlip(grid)
+            colToFlip, colZeros = findColToFlip(grid)
+            if rowZeros <= colZeros:
+                grid = flipRow(rowToFlip, grid)
+                movesList.append('R ' + str(rowToFlip + 1))
+                M += 1
+            else:
+                grid = flipCol(colToFlip, grid)
+                movesList.append('C ' + str(colToFlip + 1))
+                M += 1
+
+            #import time
+            #time.sleep(1)
+            #print(grid)
+            if isSolved(grid):
+                print(M)
+                for i in movesList:
+                    print(i)
+                break
+            elif M > 1000:
+                print('-1')
+                break
     else:
-        grid = flipCol(colToFlip, grid)
-        movesList.append('C ' + str(colToFlip + 1))
-        M += 1
-
-    #import time
-    #time.sleep(1)
-    #print(grid)
-    if isSolved(grid):
-        print(M)
-        for i in movesList:
-            print(i)
-        break
-    elif M > 1000:
         print('-1')
-        break
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
