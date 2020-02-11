@@ -6,22 +6,19 @@ import time
 
 
 def generateData():
-    alphabet = 'abcdefghijklmnopqrstuvwxyz'
-    cStrings = ''
-    qStrings = ''
-    itterations = random.choice(range(1000))
-    for i in range(itterations):
-        cStrings += 'C '+str(random.choice(alphabet))+'\n'
-        qStrings += 'Q '+str(random.choice(alphabet))+'\n'
-    return 'chad '+str(itterations)+'\n'+cStrings+qStrings
+    N = random.choice(range(2, 101))
+    returnString = str(N)+'\n'
+    for i in range(N):
+        returnString += str(random.choice(range(1, 2000)))+' '
+    return returnString[:-1]
 
 
 
-for i in range(1):
+for i in range(10):
     with open('input.txt', 'w') as file:
         data = generateData()
         file.write(data)
 
-    os.system('python DMOJ-Mock-CCC-2020/Q3.py < input.txt')
+    os.system('python "CCC 2017"/Q3.py < input.txt')
     print('--------------------------------------------------------------')
-    # time.sleep(2)
+    time.sleep(2)
