@@ -5,20 +5,23 @@ import time
 
 
 
-def generateData():
-    N = random.choice(range(2, 101))
-    returnString = str(N)+'\n'
-    for i in range(N):
-        returnString += str(random.choice(range(1, 2000)))+' '
-    return returnString[:-1]
+def generateData(i):
+    #num = ''
+    #if i < 10:
+    #    num += '0'+str(i)
+    #else:
+    num = str(i)
+    with open(f'inputs/s3.{num}.in', 'r') as txtFile:
+        return txtFile.read()
 
 
 
-for i in range(10):
+for i in range(1, 28):
     with open('input.txt', 'w') as file:
-        data = generateData()
+        data = generateData(i)
         file.write(data)
+    result = os.system('python "CEMC-Practice-CCC-2020"/Q3.py < input.txt')
+    print(result)
+    print(f'--------------------- TEST: {i} -----------------------------------------')
 
-    os.system('python "CCC 2017"/Q3.py < input.txt')
-    print('--------------------------------------------------------------')
     time.sleep(2)
