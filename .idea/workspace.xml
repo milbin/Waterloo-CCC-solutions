@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ea40248-e4e0-4fbe-a39e-be1560918356" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/CEMC-Practice-CCC-2020/Q1.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CEMC-Practice-CCC-2020/Q2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CEMC-Practice-CCC-2020/Q3.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CEMC-Practice-CCC-2020/Q4.py" afterDir="false" />
+=======
+>>>>>>> c76183e81c7e8192e32ee34110eef3cafbc22fe0
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automatedTests.py" beforeDir="false" afterPath="$PROJECT_DIR$/automatedTests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC 2017/Q3.py" beforeDir="false" afterPath="$PROJECT_DIR$/CCC 2017/Q3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,6 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input.txt">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="327">
               <caret line="2000001" selection-start-line="2000001" selection-end-line="2000001" />
             </state>
@@ -73,6 +77,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="765">
               <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+=======
+            <state relative-caret-position="17">
+              <caret line="1" column="4999996" lean-forward="true" selection-start-line="1" selection-start-column="4999996" selection-end-line="1" selection-end-column="4999996" />
+>>>>>>> c76183e81c7e8192e32ee34110eef3cafbc22fe0
             </state>
           </provider>
         </entry>
@@ -80,8 +88,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CEMC-Practice-CCC-2020/Q4.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="153">
               <caret line="33" selection-start-line="33" selection-end-line="33" />
+=======
+            <state relative-caret-position="319">
+              <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+>>>>>>> c76183e81c7e8192e32ee34110eef3cafbc22fe0
             </state>
           </provider>
         </entry>
@@ -89,11 +102,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/automatedTests.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-60">
               <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+=======
+            <state relative-caret-position="357">
+              <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="50" />
+>>>>>>> c76183e81c7e8192e32ee34110eef3cafbc22fe0
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -296,12 +314,16 @@
       <workItem from="1581428274440" duration="401000" />
       <workItem from="1581434451488" duration="2650000" />
       <workItem from="1581437579897" duration="1163000" />
-      <workItem from="1581453198897" duration="1100000" />
+      <workItem from="1581453198897" duration="2822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="77293000" />
+=======
+    <option name="totallyTimeSpent" value="65783000" />
+>>>>>>> c76183e81c7e8192e32ee34110eef3cafbc22fe0
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
@@ -323,7 +345,11 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32909605" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.3286119" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.42090395" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.21610169" />
+>>>>>>> c76183e81c7e8192e32ee34110eef3cafbc22fe0
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -463,11 +489,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/automatedTests.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-60">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+=======
+        <state relative-caret-position="357">
+          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="50" />
+>>>>>>> c76183e81c7e8192e32ee34110eef3cafbc22fe0
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -476,13 +507,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/input.txt">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="327">
           <caret line="2000001" selection-start-line="2000001" selection-end-line="2000001" />
+=======
+        <state relative-caret-position="17">
+          <caret line="1" column="4999996" lean-forward="true" selection-start-line="1" selection-start-column="4999996" selection-end-line="1" selection-end-column="4999996" />
+>>>>>>> c76183e81c7e8192e32ee34110eef3cafbc22fe0
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CEMC-Practice-CCC-2020/Q3.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="765">
           <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
         </state>
@@ -492,6 +529,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
+=======
+        <state relative-caret-position="319">
+          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+>>>>>>> c76183e81c7e8192e32ee34110eef3cafbc22fe0
         </state>
       </provider>
     </entry>
